@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca Mercado Livre</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Busca Mercado Livre</h1>
+      <div class="user-actions">
+        <button id="login-btn"><i class="fa-solid fa-user"></i> Login</button>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+          <span id="cart-count">0</span>
+          <div class="cart-menu" id="cart-menu">
+            <h3>Carrinho</h3>
+            <ul id="cart-items"></ul>
+            <button id="close-cart">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <input type="text" id="search-bar" placeholder="Digite o produto..." />
+
+    <div class="container" id="product-list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
